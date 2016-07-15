@@ -32,7 +32,7 @@ class AuditsTable extends Table
             'foreignKey' => 'audit_id',
             'className' => 'AuditLog.AuditDeltas'
         ]);
-        $this->setupSearchPlugin();
+        //$this->setupSearchPlugin();
     }
 
 
